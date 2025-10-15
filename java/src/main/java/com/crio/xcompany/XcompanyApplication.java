@@ -1,4 +1,4 @@
-package com.crio.xcompany;
+package com.vk.xcompany;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -8,9 +8,9 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.crio.xcompany.company.Company;
-import com.crio.xcompany.company.Employee;
-import com.crio.xcompany.company.Gender;
+import com.vk.xcompany.company.Company;
+import com.vk.xcompany.company.Employee;
+import com.vk.xcompany.company.Gender;
 
 public class XcompanyApplication {
 
@@ -27,7 +27,7 @@ public class XcompanyApplication {
     public static void run(String inputFile, String outputFile){
 
         // Initialize Company
-        Company company = Company.create("Crio.Do",new Employee("Rathina",Gender.MALE));
+        Company company = Company.create("vk.Do",new Employee("Rathina",Gender.MALE));
 
         
 

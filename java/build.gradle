@@ -12,7 +12,7 @@ plugins {
     id 'application'
 }
 
-group = 'com.crio'
+group = 'com.vk'
 version = '1.0'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -25,7 +25,7 @@ buildDir = '/tmp/external_build'
 
 application {
     // Define the main class for the application.
-    mainClass = 'com.crio.xcompany.XcompanyApplication'
+    mainClass = 'com.vk.xcompany.XcompanyApplication'
 }
 
 repositories {
@@ -37,7 +37,7 @@ jar {
     archiveBaseName = 'example' //Please do not change this final artifact name
     version =  null              //Please do not change this final artifact version
     manifest {
-        attributes 'Main-Class' : 'om.crio.xcompany.XcompanyApplication' //Change this to the main class of your program which will be executed
+        attributes 'Main-Class' : 'om.vk.xcompany.XcompanyApplication' //Change this to the main class of your program which will be executed
     }
     // To create a single jar with all dependencies.
     from {

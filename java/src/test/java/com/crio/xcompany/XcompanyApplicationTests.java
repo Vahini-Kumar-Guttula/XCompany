@@ -1,4 +1,4 @@
-package com.crio.xcompany;
+package com.vk.xcompany;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;

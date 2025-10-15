@@ -1,4 +1,4 @@
-package com.crio.xcompany.company;
+package com.vk.xcompany.company;
 
 public enum Gender {
     MALE,FEMALE

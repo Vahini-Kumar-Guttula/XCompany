@@ -1,4 +1,4 @@
-package com.crio.xcompany.company;
+package com.vk.xcompany.company;
 
 import java.util.*;
 
